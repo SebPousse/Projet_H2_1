@@ -1,0 +1,7 @@
+DROP TABLE produit;
+CREATE TABLE IF NOT EXISTS produit
+(
+    id   LONG AUTO_INCREMENT PRIMARY KEY,
+    marque VARCHAR(250) NOT NULL,
+    prix   INT(10)      NOT NULL
+);
